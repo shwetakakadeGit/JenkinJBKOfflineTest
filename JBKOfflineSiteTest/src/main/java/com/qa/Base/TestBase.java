@@ -14,7 +14,7 @@ public class TestBase {
 	public static Properties prop;
 
 	public TestBase() throws IOException {
-		FileInputStream fis = new FileInputStream("D:\\SRK_Assignment\\JBKOfflineSiteTest\\src\\main\\java\\com\\qa\\config\\config.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\kakad\\git\\JenkinJBKOfflineTest\\JBKOfflineSiteTest\\src\\main\\java\\com\\qa\\config\\config.properties");
 		prop = new Properties();
 		prop.load(fis);
 	}
